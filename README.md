@@ -1,5 +1,5 @@
-QDevelopment
-============
+// QDevelopment - © Simon Nee 2013
+// ============
 
-TestRepository
-Updated From Desktop
+// This is a TestRepository for a coursework project based around KDB/Q.
+
