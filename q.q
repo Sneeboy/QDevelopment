@@ -11,6 +11,6 @@
 pi:acos -1; e:exp 1; phi:(1+sqrt 5)%2;
 \d .
 
-// Useful Funtions
+// Useful Functions
 // From www.KDBFaq.com
-profile:{show x};
+profile:{lines:read0 x;flip `line`time !(1+til count lines;value each "\\t ",/:lines)};
