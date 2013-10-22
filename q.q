@@ -37,3 +37,6 @@ cvm:{(x+flip(not n=\:n)*x:(n#'0.0),'(x$/:'(n:til count x)_\:x)%count first x)-a*
 
 // correlation matrix
 crm:{cvm[x]%u*/:u:dev each x}
+
+// File Handling Utilities
+directoryScan:{};
